@@ -400,7 +400,7 @@ nav .fa-solid {
     flex-basis: 100%;
   }
   .circle #pic{
-    display: none;
+    display: block;
   }
 }
 
