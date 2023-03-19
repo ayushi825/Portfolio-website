@@ -263,6 +263,9 @@ border-bottom-right-radius: 400px ;
   font-size: 14px;
   transition: height 0.5s;
 }
+#layer2{
+  height: 100%;
+}
 .layer h3 {
   font-weight: 500;
   margin-bottom: 20px;
