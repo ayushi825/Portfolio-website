@@ -365,6 +365,9 @@ form .btn2 {
   font-size: 15px;
 }
 /* css for small screen  */
+nav .fa-solid {
+  display: none;
+}
 @media only screen and (max-width: 600px) {
   nav .fa-solid {
     display: block;
@@ -375,9 +378,6 @@ form .btn2 {
   }
   .header-text h1{
     font-size: 30px;
-  }
-  nav .fa-solid {
-    display: none;
   }
 
   nav ul {
