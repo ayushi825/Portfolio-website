@@ -372,6 +372,13 @@ nav .fa-solid {
   nav .fa-solid {
     display: block;
   }
+  .header-text{
+    margin-top:50%;
+    font-size:20px;
+}
+  .header-text h1{
+    font-size: 30px;
+}
 
   nav ul {
     background: #ff8800;
