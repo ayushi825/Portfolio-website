@@ -4,7 +4,7 @@
   /* font-family: 'Courier New', Courier, monospace; */
   box-sizing: border-box;
 }
-*html{
+*html {
   scroll-behavior: smooth;
 }
 body {
@@ -14,21 +14,24 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  /* background-image: url(./image/img2.jpeg); */
+  background-image: url("https://wallpapers.com/images/hd/krishna-iphone-silhouette-blue-smoke-jyi7aa5oablxr10o.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: 230px;
+  background-attachment: fixed;
+  /* font-size: small; */
 }
 .logo {
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 54px;
   width: 140px;
   color: #ff8800;
+  color: #ababab(v);
 }
 #logo2 {
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 54px;
   width: 140px;
-  color:aliceblue;
+  color: aliceblue;
 }
 .container {
   padding: 10px 10%;
@@ -53,6 +56,9 @@ nav ul li a {
   font-size: 18px;
   position: relative;
 }
+.typing {
+  color:#ff8800;
+}
 
 nav ul li a::after {
   content: "";
@@ -70,6 +76,7 @@ nav ul li a:hover::after {
 .header-text {
   margin-top: 20%;
   font-size: 30px;
+  /* margin-left: 345px; */
 }
 .header-text h1 {
   font-size: 60px;
@@ -78,22 +85,21 @@ nav ul li a:hover::after {
 .header-text h1 span {
   color: #ff8800;
 }
-.circle{
+.circle {
   margin-left: 750px;
   margin-top: -415px;
-
 }
-#pic{
-/* width: 300px;
+#pic {
+  /* width: 300px;
 border-radius: 100px;
 height: 100px; */
 
-width: 90%;
-height: auto;
-border: 5px solid white;
-/* border-radius: 20px; */
-border-top-left-radius:250px ;
-border-bottom-right-radius: 400px ;
+  width: 90%;
+  height: auto;
+  border: 5px solid white;
+  /* border-radius: 20px; */
+  border-top-left-radius: 250px;
+  border-bottom-right-radius: 400px;
 
   /* height: 4px; */
 }
@@ -173,14 +179,15 @@ border-bottom-right-radius: 400px ;
   display: block;
 }
 
-.fa-file, .fa-arrow-up-right-from-square{
+.fa-file,
+.fa-arrow-up-right-from-square {
   margin-left: 10px;
   color: #ababab;
   font-size: large;
 }
-#i-2{
-  margin-top: 2px ;
-  font-size:5px ;
+#i-2 {
+  margin-top: 2px;
+  font-size: 5px;
 }
 
 /* services */
@@ -263,7 +270,7 @@ border-bottom-right-radius: 400px ;
   font-size: 14px;
   transition: height 0.5s;
 }
-#layer2{
+#layer2 {
   height: 100%;
 }
 .layer h3 {
@@ -364,7 +371,7 @@ form .btn2 {
   margin-top: 20px;
   cursor: pointer;
 }
- .font{
+.font {
   font-size: 15px;
 }
 /* css for small screen  */
@@ -372,11 +379,11 @@ nav .fa-solid {
   display: none;
 }
 @media only screen and (max-width: 600px) {
-  .header-text{
-    margin-top:50%;
-    font-size:20px;
+  .header-text {
+    margin-top: 50%;
+    font-size: 20px;
   }
-  .header-text h1{
+  .header-text h1 {
     font-size: 30px;
   }
   nav .fa-solid {
@@ -392,7 +399,7 @@ nav .fa-solid {
     width: 200px;
     height: 100vh;
     padding-top: 50px;
-    z-index:2 ;
+    z-index: 2;
     transition: right 0.5s;
   }
   nav ul li {
@@ -406,33 +413,35 @@ nav .fa-solid {
     left: 25px;
     cursor: pointer;
   }
-  .sub-title{
-    font-size:40px;
-}
-.about-col-1, .about-col-2{
-    flex-basis: 100%;
-}
-.about-col-1{
-    margin-bottom: 30px;
-}
-.about-col-2{
-    font-size:14px;
-}
-.tab-links{
-    font-size:16px;
-    margin-right:20px;
-}
-
-  .contact-left, .contact-right{
+  .sub-title {
+    font-size: 40px;
+  }
+  .about-col-1,
+  .about-col-2 {
     flex-basis: 100%;
   }
-  .circle #pic{
+  .about-col-1 {
+    margin-bottom: 30px;
+  }
+  .about-col-2 {
+    font-size: 14px;
+  }
+  .tab-links {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  .contact-left,
+  .contact-right {
+    flex-basis: 100%;
+  }
+  .circle #pic {
     display: block;
   }
 }
 
-#msg{
-  color:aliceblue;
-  margin-top:-40px;
+#msg {
+  color: aliceblue;
+  margin-top: -40px;
   display: block;
 }
