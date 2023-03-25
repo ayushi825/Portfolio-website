@@ -61,7 +61,7 @@ nav ul li a {
   position: relative;
 }
 .typing {
-  color:#ff8800;
+  color: #ff8800;
 }
 
 nav ul li a::after {
@@ -380,7 +380,7 @@ nav .fa-solid {
   display: none;
 }
 @media only screen and (max-width: 600px) {
-  #header img{
+  #header img {
     /* background-image: url('image/krishna.jpg'); */
     display: block;
     width: auto;
@@ -388,9 +388,8 @@ nav .fa-solid {
     height: auto;
     /* width: 50%; */
     overflow: hidden;
-
   }
-  #header{
+  #header {
     background-image: url("https://wallpapers.com/images/hd/krishna-iphone-silhouette-blue-smoke-jyi7aa5oablxr10o.jpg");
     display: block;
     width: auto;
@@ -399,7 +398,7 @@ nav .fa-solid {
     /* width: 50%; */
     overflow: hidden;
   }
- 
+
   .header-text {
     margin-top: 50%;
     font-size: 20px;
@@ -451,12 +450,16 @@ nav .fa-solid {
     font-size: 16px;
     margin-right: 20px;
   }
-
+  #layer2 {
+    height: 100%;
+  }
+  #layer3 {
+   padding: 2px;
+  }
   .contact-left,
   .contact-right {
     flex-basis: 100%;
   }
-  
 }
 
 #msg {
