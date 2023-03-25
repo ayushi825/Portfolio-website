@@ -21,9 +21,15 @@ body {
   background-attachment: fixed;
   /* font-size: small; */
 }
-/* #header img{
+/* #header img
   display: none;
 } */
+
+#intro{
+margin-top: 50px;
+
+font-size: 25px;
+}
 .logo {
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 54px;
@@ -128,7 +134,7 @@ height: 100px; */
   flex-basis: 35%;
 }
 .about-col-1 img {
-  width: 80%;
+  width: 70%;
   border-radius: 20px;
 }
 .about-col-2 {
