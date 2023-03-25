@@ -390,13 +390,15 @@ nav .fa-solid {
     overflow: hidden;
   }
   #header {
-    background-image: url("https://wallpapers.com/images/hd/krishna-iphone-silhouette-blue-smoke-jyi7aa5oablxr10o.jpg");
-    display: block;
+     background-image: url("https://wallpapers.com/images/hd/krishna-iphone-silhouette-blue-smoke-jyi7aa5oablxr10o.jpg"); 
+    /* display: block;
     width: auto;
     max-width: 100%;
-    height: auto;
+    height: auto; */ 
     /* width: 50%; */
-    overflow: hidden;
+    /* overflow: hidden; */
+    /* padding: 100px; */
+    background-position: -45px ;
   }
 
   .header-text {
